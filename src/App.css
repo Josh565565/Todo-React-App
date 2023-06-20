@@ -4,7 +4,7 @@
 }
 
 .container {
-  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  background: #8758ff;
   /* background-color: #c89666; */
   width: 100%;
   min-height: 100vh;
@@ -14,7 +14,7 @@
 }
 
 .app-wrapper {
-  background-color: #12343b;
+  background-color: #0e0f2a;
   min-width: 450px;
   min-height: 650px;
   padding: 30px;
@@ -32,32 +32,37 @@
 
 .task-input {
   outline: 70px;
-  width: 260px;
+  width: 290px;
   padding: 15px;
   margin-right: 25px;
   font-size: 20px;
   color: #ccc;
   background-color: #000000;
-  border: 1px solid #c89666;
-  border-radius: 10px;
+  border: 1px solid #8758ff;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .button-add {
-  width: 70px;
-  padding: 15px 15px;
+  width: 120px;
+  padding: 16px 15px;
   font-size: 20px;
-  border-radius: 10px;
+  border-radius: 0px 10px 10px 0px;
   border: 0;
-  background-color: #f1af71;
+  background-color: #8758ff;
   cursor: pointer;
+  color: #ffffff;
+  margin-left: -25px;
 }
 
 .list-item {
+  height: 50px;
   display: flex;
   margin: 20px 0;
   border: 1px solid #ccc;
   border-radius: 10px;
-  max-height: 30px;
+  max-height: 50px;
+  background-color: #8758ff;
+  color: #ffffff;
 }
 
 .button-complete,
@@ -69,16 +74,18 @@
   background-color: transparent;
   font-size: 28px;
   border-radius: 50%;
+  margin: 10px 0px 0px 0px;
 }
 
 .button-complete {
   color: #ff6c6c;
   margin-right: 10px;
+  margin-left: 80px;
 }
 
 .button-edit {
   color: #e2cc29;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .button-delete {
@@ -94,12 +101,14 @@
 
 .list {
   width: 220px;
-  background-color: #12343b;
+  background-color: #8758ff;
   border: none;
   color: #ccc;
   font-size: 20px;
   padding-left: 10px;
   margin-right: 15px;
+  color: #ffffff;
+  border-radius: 11px;
 }
 
 input:focus,
